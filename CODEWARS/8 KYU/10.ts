@@ -5,3 +5,16 @@
 
 // 2 -> 3 (1 + 2)
 // 8 -> 36 (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8)
+
+export const summation = (num: number) => {
+  let nilai:number[] = [];
+  let total = 0;
+
+  for (let index = 0; index <= num; index++) {
+    nilai.push(index);
+    total += index;
+  }
+  return total;
+};
+
+console.log(summation(3));
