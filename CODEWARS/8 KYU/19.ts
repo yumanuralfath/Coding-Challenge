@@ -15,9 +15,7 @@
 // description and the examples, you can read more about it here
 
 const centuryFromYear = (year: number): number => {
-  let result;
-  year - (100 * result - 99);
-  return result;
+  return Math.ceil(year / 100);
 };
 
 console.log(centuryFromYear(2012));
