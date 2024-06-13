@@ -39,9 +39,6 @@ Ensure you have the appropriate compiler/interpreter installed for each language
 ## Contributing
 If you wish to contribute to this repository, feel free to fork the project and submit a pull request. Please ensure your code follows the existing coding style and includes comments where necessary.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Contact
 For any questions or suggestions, please open an issue in the repository or contact the repository owner.
 
